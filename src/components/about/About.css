@@ -1,0 +1,39 @@
+
+.about_section {
+    margin-bottom: 100px;
+}
+
+.about_content {
+    box-shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%);
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.skill-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.skill-info .skill_left h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.progress {
+    height: 10px !important;  
+}
+.progress-bar.barone {
+    background: var(--secondColor) !important;
+}
+.progress-bar.bartwo {
+    background: var(--firstColor) !important;
+}
+.progress-bar.barthree {
+    background: rgb(108, 108, 229) !important;
+}
+

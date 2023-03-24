@@ -1,0 +1,60 @@
+.footer_section {
+    background: var(--fontColor);
+    padding: 90px 0px 40px 0px;
+  }
+  
+  .footer_top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer_menu {
+  
+  }
+  .footer_menu ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  
+  .footer_menu ul li {
+    list-style: none;
+    padding: 0px 25px;
+  }
+  .footer_menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .footer_text p {
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 12px;
+  }
+  
+  .footer_item h2 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  a.chatbtn {
+    text-decoration: none;
+    color: var(--secondColor);
+    font-size: 16px;
+    border: 1px solid var(--secondColor);
+    padding: 13px;
+    display: block;
+  }
+  

@@ -1,0 +1,29 @@
+.service_section {
+    margin-bottom: 100px;
+}
+
+.service_item {
+    border-radius: 20px;
+}
+
+.service_item_inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px 25px;
+}
+ 
+.service_content {
+    width: 314px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.service_content h2 {
+    font-size: 22px;
+}
+
+.service_content p {
+    line-height: 25px;
+    font-size: 16px;
+}
