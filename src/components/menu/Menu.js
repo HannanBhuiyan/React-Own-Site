@@ -1,6 +1,7 @@
 import React from "react";
 import './Menu.css';
 import data from './data'
+
  
 
 const Menu = () => {
@@ -24,10 +25,11 @@ const Menu = () => {
                             }
                             
                         </ul>
+                        <div className="contact_btn">
+                            <a href="#">Contact</a>
+                        </div>
                     </div>
-                    <div className="contact_btn">
-                        <a href="#">Contact</a>
-                    </div>
+                    
                     </div>
                 </div>
             </div>

@@ -1,10 +1,11 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { WhatsAppWidget } from 'react-whatsapp-widget';
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-import { Pagination } from "swiper";
+import { Autoplay } from "swiper";
 import PartnerData from './PartnerData'
 import './Partner.css'
 
@@ -18,11 +19,14 @@ const Partner = () => {
                 </div>
                 <div className="container">
                 <Swiper 
-                modules={[Pagination]}
+                modules={[Autoplay]}
                 spaceBetween={30}
                 slidesPerView={5} 
                 loop={true}
-                pagination={{ clickable: true }} 
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                  }}
                  className="mySwiper">
                     {PartnerData.map( (data, index) => {
                         return <SwiperSlide key={index}>
@@ -31,6 +35,7 @@ const Partner = () => {
                     })} 
                 </Swiper>
                 </div>
+                <WhatsAppWidget phoneNumber="01987624850" />
             </div>
 
         </>

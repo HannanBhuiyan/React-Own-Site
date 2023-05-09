@@ -12,9 +12,6 @@ const Menu = [
         name : "Experience"
     },
     {
-        name : "Portfolio"
-    },
-    {
         name : "Marketplace"
     }
 ]

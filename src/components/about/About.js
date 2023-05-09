@@ -29,7 +29,7 @@ const About = () => {
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda laboriosam
                                                 atque pariatur modi beatae nisi ducimus quisquam, alias recusandae soluta repudiandae
                                                     hic voluptates consequuntur dicta harum quos quas ex iusto
-                                                    .</p>
+                                        .</p>
                                     </div>
                                 </div>  
                                 <div className="col-md-6">
@@ -47,6 +47,17 @@ const About = () => {
                                         <div className="progress-bar barone"  role="progressbar" style={{ width: "90%" }} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
 
+                                        <div className="skill-info">
+                                            <div className="skill_left">
+                                                <h4>App Development</h4>
+                                            </div>
+                                            <div className="skill_right">
+                                                <span>75%</span>
+                                            </div> 
+                                        </div> 
+                                        <div className="progress mb-4">
+                                        <div className="progress-bar four" role="progressbar" style={{ width:"75%"}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
 
                                         <div className="skill-info">
                                             <div className="skill_left">
@@ -66,12 +77,11 @@ const About = () => {
                                             </div>
                                             <div className="skill_right">
                                                 <span>75%</span>
-                                            </div>
-                                            
-                                        </div>
+                                            </div> 
+                                        </div> 
                                         <div className="progress">
                                         <div className="progress-bar barthree" role="progressbar" style={{ width:"75%"}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
+                                        </div> 
                                     </div>
                                 </div>  
                             </div> 

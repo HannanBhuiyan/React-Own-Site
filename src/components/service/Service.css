@@ -4,6 +4,12 @@
 
 .service_item {
     border-radius: 20px;
+    transition: all .3s ease-in-out;
+}
+.service_item:hover {
+    box-shadow: 0px 12px 12px -7px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 0px 12px 12px -7px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 12px 12px -7px rgba(0,0,0,0.35);
 }
 
 .service_item_inner {
@@ -14,7 +20,7 @@
 }
  
 .service_content {
-    width: 314px;
+    width: 300px;
     margin-left: 20px;
     color: #fff;
 }

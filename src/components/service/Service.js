@@ -14,8 +14,8 @@ const Service = () => {
                         <h2>Service </h2>
                         <p>Our offers, innovations, and the latest updates of our team are posted here. Read our latest announcements to know what we are doing. We also post some technology related article as well.</p>
                     </div> 
-                    <div className="row" style={{ justifyContent:"space-evenly" }}>   
-                        <div className="col-md-5">
+                    <div className="row">   
+                        <div className="col-md-6 col-12">
                             <div className="service_item" style={{ backgroundColor: "#59c378" }}>
                                 <div className="service_item_inner" style={{ marginBottom: "40px" }}>
                                     <div className="service_img"> 
@@ -31,7 +31,7 @@ const Service = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-5">
+                        <div className="col-md-6 col-12">
                             <div className="service_item" style={{ backgroundColor: "#FEA301" }}> 
                                 <div className="service_item_inner">
                                     <div className="service_img"> 
@@ -47,12 +47,11 @@ const Service = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-5">
+                        <div className="col-md-6 col-12">
                             <div className="service_item" style={{ backgroundColor: "#1B434D" }}>
                                 <div className="service_item_inner">
-                                    <div className="service_img">
-                                   
-                                        <img src="./images/cloud.svg" alt="" />
+                                    <div className="service_img"> 
+                                        <img src="./images/mobile-app.png" alt="" />
                                     </div>
                                     <div className="service_content">
                                         <h2>App Development</h2>
@@ -64,11 +63,11 @@ const Service = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-5">
+                        <div className="col-md-6 col-12">
                             <div className="service_item" style={{ backgroundColor: "rgb(108, 108, 229)" }}>
                                 <div className="service_item_inner">
-                                    <div className="service_img"> 
-                                        <img src="./images/mobile-app.png" alt="" />
+                                    <div className="service_img">  
+                                        <img src="./images/cloud.svg" alt="" />
                                     </div>
                                     <div className="service_content">
                                         <h2>Cloud Engineering</h2>

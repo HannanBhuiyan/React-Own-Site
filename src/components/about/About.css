@@ -14,7 +14,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .skill-info .skill_left h4 {
@@ -37,3 +37,6 @@
     background: rgb(108, 108, 229) !important;
 }
 
+.progress-bar.four {
+    background: #E01E5A !important;
+}

@@ -1,6 +1,8 @@
 import React from "react";
 
 import '../hero/Hero.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faFacebookF, faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons"; 
  
 
 const Hero = () => {
@@ -22,19 +24,21 @@ const Hero = () => {
                             <div className="social_icon">
                                 <ul>
                                 <li>
-                                    <a href="#">  <i className='fa fa-facebook'></i> </a>
+                                    <a href="https://www.facebook.com/hannan.bhuiyan.313/">  <FontAwesomeIcon icon={faFacebookF} /> </a>
                                 </li>
                                 <li>
-                                    <a href="#">  <i className='fa fa-linkedin'></i> </a>
+                                    <a href="https://www.linkedin.com/in/hannan-bhuiyan-172903235/">  <FontAwesomeIcon icon={faLinkedinIn} /> </a>
                                 </li>
                                 <li>
-                                    <a href="#">  <i className='fa fa-github'></i> </a>
+                                    <a href="https://github.com/HannanBhuiyan"> 
+                                        <FontAwesomeIcon icon={faGithub} /> 
+                                    </a>
                                 </li>
                                 </ul>
                             </div>
                             <div className="button_group">
-                                <a href="./images/CV3.pdf" download className="btn_download">Download CV 	&#160; <i className="fa fa-download"></i></a>
-                                <a href="#" className="btn_hire">Hire Me 	&#160; <i className="fa fa-arrow-right"></i></a>
+                                <a href="./images/CV3.pdf" download className="btn_download">Download CV &#160; <i className="fa fa-download"></i></a>
+                                <a href="https://www.fiverr.com/web_expart55" className="btn_hire">Hire Me &#160; <i className="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
 

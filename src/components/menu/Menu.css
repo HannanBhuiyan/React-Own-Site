@@ -18,7 +18,8 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 0;padding: 0;
+    margin: 0;
+    padding: 0;
   }
   
   .menu_item ul li {
@@ -42,8 +43,6 @@
     -o-transition: all .3s ease-in-out;
   }
   
-   
-  
   .menu_item ul li a::after {
     position: absolute;
     content: "";
@@ -57,14 +56,12 @@
     transform-origin: center;
   }
    
-  
   .menu_logo a {
     text-decoration: none;
     text-shadow: 6px 9px 10px rgba(63,81,181,0.95);
     font-size: 45px;
     font-weight: 700;
   }
-  
   
   .contact_btn a {
     background-color:var(--secondColor);
@@ -77,8 +74,15 @@
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
-    display: block;
+    transition: all .3s ease-in-out;
   }
+  .contact_btn a:hover {
+    color:#fff;
+    background-color: var(--firstColor);
+  }
+
+  
+
   
   .menu_item ul li a:hover::after {
     transform: scaleX(1);
@@ -90,3 +94,8 @@
     color: var(--firstColor);
   }
   
+  .menu_item {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
