@@ -12,9 +12,6 @@ const FooterData = [
         name : "Experience"
       },
       {
-        name : "Portfolio"
-      },
-      {
         name : "Marketplace"
       }
 ]
