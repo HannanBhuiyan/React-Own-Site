@@ -38,8 +38,8 @@ const Work = () => {
             <div className="work_section">
                 <div className="container">
                     <div className="common_title">
-                        <h2>Explore Own Marketplace</h2>
-                        <p>Our offers, innovations, and the latest updates of our team are posted here. Read our latest announcements to know what we are doing. We also post some technology related article as well.</p>
+                        <h2>Our Marketplace</h2>
+                        <p> Our software products provide innovative solutions for businesses of all sizes, from productivity tools to enterprise-level systems. With a focus on user experience and quality, our software helps businesses achieve their goals and streamline their operations.</p>
                     </div>
                     <div className="row">
                         {WorkData.map( (data, index) => {

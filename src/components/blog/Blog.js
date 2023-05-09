@@ -9,7 +9,7 @@ const Blog = () => {
                 <div class="container">
                     <div class="common_title">
                         <h2>Latest Articles</h2>
-                        <p>Our offers, innovations, and the latest updates of our team are posted here. Read our latest announcements to know what we are doing. We also post some technology related article as well.</p>
+                        <p> We provide in-depth analysis and thought leadership to help businesses navigate the ever-evolving tech landscape and stay ahead of the curve.</p>
                     </div>
                     <div class="blog_inner">
                         <div class="row">
